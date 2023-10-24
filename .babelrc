@@ -24,7 +24,11 @@
             "@constants": "./src/constants",
             "@utils": "./src/utils",
             "@screens": "./src/screens",
-            "@stores": "./src/stores"
+            "@stores": "./src/stores",
+            "@redux": "./src/redux",
+            "@theme": "./src/theme",
+            "@hooks": "./src/hooks",
+            "@images": "./src/images"
           }
         }
       ]

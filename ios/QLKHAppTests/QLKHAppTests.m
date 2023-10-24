@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface QLKHAppTests : XCTestCase
+@interface messengerTests : XCTestCase
 
 @end
 
-@implementation QLKHAppTests
+@implementation messengerTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

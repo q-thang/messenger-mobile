@@ -1,4 +1,4 @@
-package com.qlkhapp;
+package com.messenger;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

@@ -1,11 +1,10 @@
 import {configureStore} from '@reduxjs/toolkit';
 import {combineReducers} from 'redux';
 import {composeWithDevTools} from 'redux-devtools-extension';
-import userSlice from './slices/userSlice';
 const composedEnhancers = composeWithDevTools();
 
 const appReducer = combineReducers({
-  user: userSlice,
+  // user: userSlice,
   //   theme: themeSlice,
   //   alert: alertSlice,
 });
