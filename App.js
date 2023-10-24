@@ -1,18 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {RootNavigator} from '@navigation/index';
 
-export default function App() {
+import {NavigationContainer} from '@react-navigation/native';
+// import {} from '@stores/index';
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hello world!</Text>
-    </View>
+    <NavigationContainer>
+      {/* <ContextProvider> */}
+      <RootNavigator />
+      {/* </ContextProvider> */}
+    </NavigationContainer>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
+export default App;
